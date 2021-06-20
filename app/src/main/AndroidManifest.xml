@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dgng_ucorps.lifenpray">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5126976828085549~5503628456"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BoardList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LihatBiodata"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene15"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".version"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene16"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene17"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene18"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene19"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene20"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene21"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene22"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene24"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene25"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene27"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene28"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene30"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene31"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene33"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene23"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene26"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene29"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Scene32"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

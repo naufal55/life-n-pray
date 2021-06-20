@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_text">
+        <item>pada suatu hari....</item>
+        <item>dijam 04.00 pagi</item>
+        <item>azan shubuh berkumandang</item>
+        <item>yang membuat kamu bangun dari tidurmu</item>
+    </string-array>
+
+</resources>

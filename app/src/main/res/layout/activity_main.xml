@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/bg"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgu" />
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/flag" />
+
+    <ImageView
+        android:id="@+id/laki"
+        android:layout_width="98dp"
+        android:layout_height="348dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/laki" />
+
+    <ImageView
+        android:id="@+id/perempuan"
+        android:layout_width="119dp"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/perempuan" />
+
+    <ImageView
+        android:id="@+id/entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        android:src="@drawable/button13" />
+
+    <EditText
+        android:id="@+id/nama"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:background="@android:color/holo_blue_bright"
+        android:ems="10"
+        android:hint="masukkan nama anda"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <ImageButton
+        android:id="@+id/ButtonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/LeaderBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_dialog_dialer" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/star"
+        android:layout_toStartOf="@+id/ab"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_help" />
+
+    <ImageButton
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_info_details" />
+
+    <ImageButton
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ab"
+        android:layout_toEndOf="@+id/ab"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/btn_star_big_off" />
+
+</RelativeLayout>

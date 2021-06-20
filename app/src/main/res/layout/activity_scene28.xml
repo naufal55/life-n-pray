@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scene28">
+    <ImageView
+        android:id="@+id/BG_QnA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_qa" />
+
+    <RadioGroup
+        android:id="@+id/klmp"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:text="doa apa yang kamu baca ketika bercermin ?"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/pil1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="بِْسِمَك اللَُّهَّم اَْحيَاَوبِْسِمَك َواَُمْو ُت"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/pil2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِيْ  فَحَسِّنْ خُلُقِيْ"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/pil3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="اَلْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي اْلأَذَى وَعَافَنِيْ"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/jawab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/jawab" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/palalu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/pala" />
+
+    <ImageView
+        android:id="@+id/salah"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/salah" />
+
+    <ImageView
+        android:id="@+id/benar"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/benar" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/cancel" />
+</RelativeLayout>
